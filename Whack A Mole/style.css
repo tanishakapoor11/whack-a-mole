@@ -1,0 +1,29 @@
+body{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: white;
+}
+.grid {
+    width: 606px;
+    height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.square{
+    height: 200px;
+    width: 200px;
+    border: solid black 1px;
+}
+
+.mole {
+    background-image: url('mole.jpg');
+    background-size: cover;
+}
+
+#score {
+    color: crimson
+}
+
+#time-left {
+    color: crimson;
+}
